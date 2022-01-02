@@ -42,10 +42,10 @@ function updateFilters() {
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (inputValue) {
-      filers[inputID] = inputValue;
+      filters[inputID] = inputValue;
     }
     else {
-      delete filers[inputID];
+      delete filters[inputID];
     };
  
   
